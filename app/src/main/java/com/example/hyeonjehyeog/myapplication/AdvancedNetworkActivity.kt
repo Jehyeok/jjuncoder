@@ -1,7 +1,8 @@
 package com.example.hyeonjehyeog.myapplication
 
-import android.annotation.SuppressLint
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
@@ -11,7 +12,7 @@ import com.example.hyeonjehyeog.myapplication.network2.dto.Repository
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.functions.Consumer
 import io.reactivex.schedulers.Schedulers
-
+import timber.log.Timber
 
 class AdvancedNetworkActivity : AppCompatActivity() {
 
